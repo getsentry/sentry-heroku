@@ -1,7 +1,7 @@
 sentry-heroku
 =============
 
-A Sentry extension which integrates with Heroku release tracking.
+An extension for Sentry which adds release tracking via Heroku.
 
 Install
 -------

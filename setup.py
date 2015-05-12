@@ -3,7 +3,7 @@
 sentry-heroku
 =============
 
-A Sentry extension which integrates with Heroku release tracking.
+An extension for Sentry which adds release tracking via Heroku.
 
 :copyright: (c) 2015 by Sentry Team, see AUTHORS for more details.
 :license: Apache 2.0, see LICENSE for more details.
@@ -21,7 +21,7 @@ setup(
     author='David Cramer',
     author_email='dcramer@gmail.com',
     url='https://github.com/getsentry/sentry-heroku',
-    description='A Sentry extension which integrates Heroku release tracking.',
+    description='An extension for Sentry which adds release tracking via Heroku.',
     long_description=open('README.rst').read(),
     license='Apache 2.0',
     package_dir={'': 'src'},
