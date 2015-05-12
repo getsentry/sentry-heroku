@@ -15,7 +15,6 @@ class HerokuReleaseHook(ReleaseHook):
         self.finish_release(
             version=request.POST['head_long'],
             url=request.POST['url'],
-            environment=request.POST['app'],
         )
 
 
