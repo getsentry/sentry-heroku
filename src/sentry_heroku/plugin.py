@@ -7,6 +7,7 @@ sentry_heroku.plugin
 """
 import sentry_heroku
 
+from sentry.models import User
 from sentry.plugins import ReleaseHook, ReleaseTrackingPlugin
 
 
