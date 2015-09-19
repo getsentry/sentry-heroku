@@ -19,7 +19,7 @@ class HerokuReleaseHook(ReleaseHook):
                 email__iexact=email,
                 sentry_orgmember_set__organization__project=self.project,
             )
-        except User.MultipleObjectsReturned:
+        except (User.DoesNotExist, User.MultipleObjectsReturned):
             user = None
 
         self.finish_release(
